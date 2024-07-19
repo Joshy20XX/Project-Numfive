@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.minecraft.world.item.Item;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.projectnumfive.item.RubycoinItem;
 import net.mcreator.projectnumfive.ProjectNumfiveMod;
 
 public class ProjectNumfiveModItems {
