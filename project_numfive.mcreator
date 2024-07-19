@@ -1,10 +1,26 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Rubycoin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycoin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectnumfive/item/RubycoinItem.java",
+          "src/main/resources/assets/project_numfive/models/item/rubycoin.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.project_numfive.rubycoin": "Rubycoin"
+    }
   },
   "foldersRoot": {
     "name": "~",
