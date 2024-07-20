@@ -17,6 +17,7 @@ import net.mcreator.projectnumfive.ProjectNumfiveMod;
 public class ProjectNumfiveModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, ProjectNumfiveMod.MODID);
 	public static final DeferredHolder<Item, Item> RUBYCOIN = REGISTRY.register("rubycoin", () -> new RubycoinItem());
+	public static final DeferredHolder<Item, Item> IDONTKNOW = REGISTRY.register("idontknow", () -> new IdontknowItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

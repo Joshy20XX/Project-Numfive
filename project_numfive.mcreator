@@ -3,6 +3,7 @@
     {
       "name": "Rubycoin",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rubycoin",
@@ -12,6 +13,20 @@
           "src/main/resources/assets/project_numfive/models/item/rubycoin.json"
         ]
       }
+    },
+    {
+      "name": "Idontknow",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idontknow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectnumfive/item/IdontknowItem.java",
+          "src/main/resources/assets/project_numfive/models/item/idontknow.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -19,6 +34,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "item.project_numfive.idontknow": "Idontknow",
       "item.project_numfive.rubycoin": "Rubycoin"
     }
   },
