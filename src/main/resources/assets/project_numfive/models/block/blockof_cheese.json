@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_numfive:block/cheese_block_6",
+    "up": "project_numfive:block/cheese_block_5",
+    "north": "project_numfive:block/cheese_block_1",
+    "east": "project_numfive:block/cheese_block_4",
+    "south": "project_numfive:block/cheese_block_2",
+    "west": "project_numfive:block/cheese_block_3",
+    "particle": "project_numfive:block/cheese_block_6"
+  },
+  "render_type": "solid"
+}

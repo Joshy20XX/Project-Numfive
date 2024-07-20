@@ -23,6 +23,9 @@ public class ProjectNumfiveModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ProjectNumfiveModItems.RUBYCOIN.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(ProjectNumfiveModItems.SLICED_CHEESE.get());
+			tabData.accept(ProjectNumfiveModBlocks.BLOCKOF_CHEESE.get().asItem());
 		}
 	}
 }

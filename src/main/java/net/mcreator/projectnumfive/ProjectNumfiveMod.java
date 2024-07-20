@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.projectnumfive.init.ProjectNumfiveModTabs;
 import net.mcreator.projectnumfive.init.ProjectNumfiveModItems;
+import net.mcreator.projectnumfive.init.ProjectNumfiveModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,6 +39,8 @@ public class ProjectNumfiveMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		ProjectNumfiveModBlocks.REGISTRY.register(modEventBus);
 
 		ProjectNumfiveModItems.register(modEventBus);
 

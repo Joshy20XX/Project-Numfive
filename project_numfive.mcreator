@@ -27,6 +27,37 @@
           "src/main/resources/assets/project_numfive/models/item/idontknow.json"
         ]
       }
+    },
+    {
+      "name": "SlicedCheese",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliced_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectnumfive/item/SlicedCheeseItem.java",
+          "src/main/resources/assets/project_numfive/models/item/sliced_cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockofCheese",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_numfive/blockstates/blockof_cheese.json",
+          "src/main/resources/assets/project_numfive/models/block/blockof_cheese.json",
+          "src/main/resources/data/project_numfive/loot_tables/blocks/blockof_cheese.json",
+          "src/main/resources/assets/project_numfive/models/item/blockof_cheese.json",
+          "src/main/java/net/mcreator/projectnumfive/block/BlockofCheeseBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -35,7 +66,9 @@
   "language_map": {
     "en_us": {
       "item.project_numfive.idontknow": "Idontknow",
-      "item.project_numfive.rubycoin": "Rubycoin"
+      "block.project_numfive.blockof_cheese": "Blockof Cheese",
+      "item.project_numfive.rubycoin": "Rubycoin",
+      "item.project_numfive.sliced_cheese": "Sliced Cheese"
     }
   },
   "foldersRoot": {
