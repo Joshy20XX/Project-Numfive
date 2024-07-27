@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.projectnumfive.block.BlockofCheeseBlock;
 import net.mcreator.projectnumfive.ProjectNumfiveMod;
 
 public class ProjectNumfiveModBlocks {
