@@ -21,7 +21,10 @@ public class ProjectNumfiveModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(ProjectNumfiveModBlocks.PACKED_COBBLE_STONE.get().asItem());
+			tabData.accept(ProjectNumfiveModBlocks.SUPER_PACKED_COBBLE_STONE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ProjectNumfiveModItems.RUBYCOIN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ProjectNumfiveModItems.SLICED_CHEESE.get());

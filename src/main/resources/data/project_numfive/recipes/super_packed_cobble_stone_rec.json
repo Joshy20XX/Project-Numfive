@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "project_numfive:packed_cobble_stone"
+    }
+  },
+  "result": {
+    "item": "project_numfive:super_packed_cobble_stone",
+    "count": 1
+  }
+}

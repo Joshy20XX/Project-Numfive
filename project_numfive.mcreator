@@ -58,6 +58,66 @@
           "src/main/java/net/mcreator/projectnumfive/block/BlockofCheeseBlock.java"
         ]
       }
+    },
+    {
+      "name": "PackedCobbleStone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_cobble_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_numfive/blockstates/packed_cobble_stone.json",
+          "src/main/resources/assets/project_numfive/models/block/packed_cobble_stone.json",
+          "src/main/java/net/mcreator/projectnumfive/block/PackedCobbleStoneBlock.java",
+          "src/main/resources/data/project_numfive/loot_tables/blocks/packed_cobble_stone.json",
+          "src/main/resources/assets/project_numfive/models/item/packed_cobble_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedCobbleStoneRec",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_cobble_stone_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_numfive/recipes/packed_cobble_stone_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "SuperPackedCobbleStone",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_packed_cobble_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectnumfive/block/SuperPackedCobbleStoneBlock.java",
+          "src/main/resources/data/project_numfive/loot_tables/blocks/super_packed_cobble_stone.json",
+          "src/main/resources/assets/project_numfive/models/block/super_packed_cobble_stone.json",
+          "src/main/resources/assets/project_numfive/blockstates/super_packed_cobble_stone.json",
+          "src/main/resources/assets/project_numfive/models/item/super_packed_cobble_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "SuperPackedCobbleStoneRec",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_packed_cobble_stone_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_numfive/recipes/super_packed_cobble_stone_rec.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -67,8 +127,10 @@
     "en_us": {
       "item.project_numfive.idontknow": "Idontknow",
       "block.project_numfive.blockof_cheese": "Blockof Cheese",
+      "block.project_numfive.packed_cobble_stone": "Packed Cobble Stone",
       "item.project_numfive.rubycoin": "Rubycoin",
-      "item.project_numfive.sliced_cheese": "Sliced Cheese"
+      "item.project_numfive.sliced_cheese": "Sliced Cheese",
+      "block.project_numfive.super_packed_cobble_stone": "Super Packed Cobble Stone"
     }
   },
   "foldersRoot": {

@@ -1,6 +1,8 @@
 {
   "item.project_numfive.idontknow": "Idontknow",
   "block.project_numfive.blockof_cheese": "Blockof Cheese",
+  "block.project_numfive.packed_cobble_stone": "Packed Cobble Stone",
   "item.project_numfive.rubycoin": "Rubycoin",
-  "item.project_numfive.sliced_cheese": "Sliced Cheese"
+  "item.project_numfive.sliced_cheese": "Sliced Cheese",
+  "block.project_numfive.super_packed_cobble_stone": "Super Packed Cobble Stone"
 }

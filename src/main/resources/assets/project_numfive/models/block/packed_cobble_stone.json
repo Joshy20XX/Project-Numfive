@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_numfive:block/packedcobble",
+    "up": "project_numfive:block/packedcobble",
+    "north": "project_numfive:block/packedcobble",
+    "east": "project_numfive:block/packedcobble",
+    "south": "project_numfive:block/packedcobble",
+    "west": "project_numfive:block/packedcobble",
+    "particle": "project_numfive:block/packedcobble"
+  },
+  "render_type": "solid"
+}
