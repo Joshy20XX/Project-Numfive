@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.projectnumfive.init.ProjectNumfiveModTabs;
 import net.mcreator.projectnumfive.init.ProjectNumfiveModItems;
+import net.mcreator.projectnumfive.init.ProjectNumfiveModEntities;
 import net.mcreator.projectnumfive.init.ProjectNumfiveModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,7 +44,7 @@ public class ProjectNumfiveMod {
 		ProjectNumfiveModBlocks.REGISTRY.register(modEventBus);
 
 		ProjectNumfiveModItems.register(modEventBus);
-
+		ProjectNumfiveModEntities.REGISTRY.register(modEventBus);
 		ProjectNumfiveModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init

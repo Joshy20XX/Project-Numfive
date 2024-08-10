@@ -6,6 +6,7 @@ package net.mcreator.projectnumfive.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.bus.api.IEventBus;
 
 import net.minecraft.world.level.block.Block;
@@ -26,6 +27,7 @@ public class ProjectNumfiveModItems {
 	public static final DeferredHolder<Item, Item> BLOCKOF_CHEESE = block(ProjectNumfiveModBlocks.BLOCKOF_CHEESE);
 	public static final DeferredHolder<Item, Item> PACKED_COBBLE_STONE = block(ProjectNumfiveModBlocks.PACKED_COBBLE_STONE);
 	public static final DeferredHolder<Item, Item> SUPER_PACKED_COBBLE_STONE = block(ProjectNumfiveModBlocks.SUPER_PACKED_COBBLE_STONE);
+	public static final DeferredHolder<Item, Item> SQUIRREL_SPAWN_EGG = REGISTRY.register("squirrel_spawn_egg", () -> new DeferredSpawnEggItem(ProjectNumfiveModEntities.SQUIRREL, -6737152, -10092544, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

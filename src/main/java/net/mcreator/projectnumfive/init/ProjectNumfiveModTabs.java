@@ -24,6 +24,8 @@ public class ProjectNumfiveModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(ProjectNumfiveModBlocks.PACKED_COBBLE_STONE.get().asItem());
 			tabData.accept(ProjectNumfiveModBlocks.SUPER_PACKED_COBBLE_STONE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(ProjectNumfiveModItems.SQUIRREL_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ProjectNumfiveModItems.RUBYCOIN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
