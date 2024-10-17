@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.projectnumfive.item.SuperPackedClubItem;
 import net.mcreator.projectnumfive.item.SlicedCheeseItem;
 import net.mcreator.projectnumfive.item.RubycoinItem;
 import net.mcreator.projectnumfive.item.IdontknowItem;
@@ -28,6 +29,7 @@ public class ProjectNumfiveModItems {
 	public static final DeferredHolder<Item, Item> PACKED_COBBLE_STONE = block(ProjectNumfiveModBlocks.PACKED_COBBLE_STONE);
 	public static final DeferredHolder<Item, Item> SUPER_PACKED_COBBLE_STONE = block(ProjectNumfiveModBlocks.SUPER_PACKED_COBBLE_STONE);
 	public static final DeferredHolder<Item, Item> SQUIRREL_SPAWN_EGG = REGISTRY.register("squirrel_spawn_egg", () -> new DeferredSpawnEggItem(ProjectNumfiveModEntities.SQUIRREL, -6737152, -10092544, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> SUPER_PACKED_CLUB = REGISTRY.register("super_packed_club", () -> new SuperPackedClubItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

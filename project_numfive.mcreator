@@ -134,6 +134,33 @@
           "src/main/resources/assets/project_numfive/models/item/squirrel_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "SuperPackedClub",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_packed_club",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_numfive/models/item/super_packed_club.json",
+          "src/main/java/net/mcreator/projectnumfive/item/SuperPackedClubItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SuperPackedClubRec",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_packed_club_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_numfive/recipes/super_packed_club_rec.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -143,6 +170,7 @@
     "en_us": {
       "item.project_numfive.idontknow": "Idontknow",
       "entity.project_numfive.squirrel": "Squirrel",
+      "item.project_numfive.super_packed_club": "Super Packed Club",
       "block.project_numfive.blockof_cheese": "Blockof Cheese",
       "item.project_numfive.squirrel_spawn_egg": "Squirrel Spawn Egg",
       "block.project_numfive.packed_cobble_stone": "Packed Cobble Stone",
