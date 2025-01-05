@@ -161,6 +161,69 @@
           "src/main/resources/data/project_numfive/recipes/super_packed_club_rec.json"
         ]
       }
+    },
+    {
+      "name": "Blockofhearts",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofhearts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_numfive/models/block/blockofhearts.json",
+          "src/main/resources/assets/project_numfive/blockstates/blockofhearts.json",
+          "src/main/java/net/mcreator/projectnumfive/block/BlockofheartsBlock.java",
+          "src/main/resources/assets/project_numfive/models/item/blockofhearts.json",
+          "src/main/resources/data/project_numfive/loot_tables/blocks/blockofhearts.json"
+        ]
+      }
+    },
+    {
+      "name": "Farmerofhearts",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmerofhearts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_numfive/models/item/farmerofhearts.json",
+          "src/main/java/net/mcreator/projectnumfive/item/FarmerofheartsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FarmerofheartsPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmerofhearts_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectnumfive/procedures/FarmerofheartsPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heartblockloottable",
+      "type": "loottable",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartblockloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_numfive/loot_tables/blocks/heartblockloottable.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -171,12 +234,14 @@
       "item.project_numfive.idontknow": "Idontknow",
       "entity.project_numfive.squirrel": "Squirrel",
       "item.project_numfive.super_packed_club": "Super Packed Club",
+      "item.project_numfive.farmerofhearts": "Farmerofhearts",
       "block.project_numfive.blockof_cheese": "Blockof Cheese",
       "item.project_numfive.squirrel_spawn_egg": "Squirrel Spawn Egg",
       "block.project_numfive.packed_cobble_stone": "Packed Cobble Stone",
       "item.project_numfive.rubycoin": "Rubycoin",
       "item.project_numfive.sliced_cheese": "Sliced Cheese",
-      "block.project_numfive.super_packed_cobble_stone": "Super Packed Cobble Stone"
+      "block.project_numfive.super_packed_cobble_stone": "Super Packed Cobble Stone",
+      "block.project_numfive.blockofhearts": "Blockofhearts"
     }
   },
   "foldersRoot": {

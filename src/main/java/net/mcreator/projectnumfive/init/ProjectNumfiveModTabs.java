@@ -33,6 +33,8 @@ public class ProjectNumfiveModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ProjectNumfiveModItems.SLICED_CHEESE.get());
 			tabData.accept(ProjectNumfiveModBlocks.BLOCKOF_CHEESE.get().asItem());
+			tabData.accept(ProjectNumfiveModBlocks.BLOCKOFHEARTS.get().asItem());
+			tabData.accept(ProjectNumfiveModItems.FARMEROFHEARTS.get());
 		}
 	}
 }

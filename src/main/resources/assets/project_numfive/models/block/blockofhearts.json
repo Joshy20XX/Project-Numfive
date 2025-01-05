@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_numfive:block/heartblock",
+    "up": "project_numfive:block/heartblock",
+    "north": "project_numfive:block/heartblock",
+    "east": "project_numfive:block/heartblock",
+    "south": "project_numfive:block/heartblock",
+    "west": "project_numfive:block/heartblock",
+    "particle": "project_numfive:block/heartblock"
+  },
+  "render_type": "solid"
+}

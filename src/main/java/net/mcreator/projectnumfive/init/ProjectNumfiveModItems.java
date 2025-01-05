@@ -18,6 +18,7 @@ import net.mcreator.projectnumfive.item.SuperPackedClubItem;
 import net.mcreator.projectnumfive.item.SlicedCheeseItem;
 import net.mcreator.projectnumfive.item.RubycoinItem;
 import net.mcreator.projectnumfive.item.IdontknowItem;
+import net.mcreator.projectnumfive.item.FarmerofheartsItem;
 import net.mcreator.projectnumfive.ProjectNumfiveMod;
 
 public class ProjectNumfiveModItems {
@@ -30,6 +31,8 @@ public class ProjectNumfiveModItems {
 	public static final DeferredHolder<Item, Item> SUPER_PACKED_COBBLE_STONE = block(ProjectNumfiveModBlocks.SUPER_PACKED_COBBLE_STONE);
 	public static final DeferredHolder<Item, Item> SQUIRREL_SPAWN_EGG = REGISTRY.register("squirrel_spawn_egg", () -> new DeferredSpawnEggItem(ProjectNumfiveModEntities.SQUIRREL, -6737152, -10092544, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> SUPER_PACKED_CLUB = REGISTRY.register("super_packed_club", () -> new SuperPackedClubItem());
+	public static final DeferredHolder<Item, Item> BLOCKOFHEARTS = block(ProjectNumfiveModBlocks.BLOCKOFHEARTS);
+	public static final DeferredHolder<Item, Item> FARMEROFHEARTS = REGISTRY.register("farmerofhearts", () -> new FarmerofheartsItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
